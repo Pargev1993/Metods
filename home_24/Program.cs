@@ -9,30 +9,34 @@ namespace home_24
     class Program
     {
         static void Main(string[] args)
-        {
-            int number = 0;
-            numberofdegrees(number);
-
-        }
-        static int numberofdegrees (int x)
-        {
-            Console.WriteLine("Enter number");
-            x = int.Parse(Console.ReadLine());
-            int result = 0;
-           
-            for (int i = 0; i < x; i++)
+        {while (true)
             {
-                result = (int)Math.Pow(x, 1.0 / i);
-                if (result==3)
+                Console.WriteLine("Enter number");
+               float x = 0f;
+                x =float.Parse(Console.ReadLine());
+                bool isNumDirBy3 = numberofdegrees(x);
+                Console.WriteLine(isNumDirBy3);
+            }
+        }
+        static bool numberofdegrees(float x)
+        {
+            
+            float result = 0f;
+
+            for (int i = 0;i<x ;)
+            {
+
+                result = x;
+                x /= 3;
+                if (result == 1)
                 {
-                    Console.WriteLine($" {x} is {i} degree  of 3");
-                     
+                    return true;
                 }
                 
             }
             
-            Console.ReadKey();
-            return result;
+           
+            return false;
 
         }
     }
