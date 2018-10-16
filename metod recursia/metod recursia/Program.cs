@@ -12,8 +12,8 @@ namespace metod_recursia
         {
             while (true)
             {
-                int num = int.Parse(Console.ReadLine());
-                int res = fact(num);
+                
+                int res = fact(5);
                 Console.WriteLine(res);
                 Console.ReadKey();
             }
