@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{40B2E76C-854C-43E8-AD07-33124B679729}</ProjectGuid>
+    <ProjectGuid>{347D0779-E770-4EA0-BD21-2D11885F6D45}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>metod_recursia</RootNamespace>
-    <AssemblyName>metod recursia</AssemblyName>
+    <RootNamespace>home_30</RootNamespace>
+    <AssemblyName>home_30</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

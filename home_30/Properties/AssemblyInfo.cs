@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("metod recursia")]
+[assembly: AssemblyTitle("home_30")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("metod recursia")]
+[assembly: AssemblyProduct("home_30")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("40b2e76c-854c-43e8-ad07-33124b679729")]
+[assembly: Guid("347d0779-e770-4ea0-bd21-2d11885f6d45")]
 
 // Version information for an assembly consists of the following four values:
 //
